@@ -10,12 +10,12 @@
     z-index: 10;
 }
 
-.img-fluid {
+.header-image {
     display:flex;
     justify-content: center;
     align-content: center;
     align-items: center;
-    max-width: 50%;
+    max-width: 100%;
     height: auto;
 }
 
@@ -25,6 +25,13 @@ h1 {
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     font-size: 50px;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 40px;
 }
 
 h3 {
@@ -48,7 +55,9 @@ h3 {
 }
 
 .email-form {
-    
+    text-align: center;
+    background-color: #204399;
+    color: white;
 }
 
 
